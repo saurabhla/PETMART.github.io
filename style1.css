@@ -1,0 +1,308 @@
+body{
+  max-width: 1400px;
+margin: 0 auto;
+background-color: lightgrey;
+}
+.container{
+max-width: 1300px;
+  height: auto;
+  background-color:white;
+  margin: auto;
+}
+.title{
+max-width: 1300px;
+  display: inline;
+  color:red;
+  font-size: 70px;
+margin-left: 160px;
+  float: center;
+
+}
+.container h2{
+display: inline;
+}
+.container p{
+display: inline-block;
+  color:gray;
+  font-size: 30px;
+
+}
+.logo{
+ float: left;
+}
+.logo2{
+ float: right;
+}
+.clearfix{
+  clear: both;
+}
+
+.mainmenu{
+background-color: green;
+padding: 0px;
+}
+.mainmenu >ul{
+  margin:0px;
+  padding: 0px;
+  list-style-type:none;
+  text-align: center;
+}
+.mainmenu >ul >li{
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+}
+.mainmenu>ul>li>a{
+  color: white;
+  text-decoration:none;
+  display:block;
+  padding: 20px;
+  text-align: center;
+ margin-left: 10px;
+ font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mainmenu>ul>li>input{
+  font-size: 20px;
+}
+.searchbar{
+width: 400px;
+}
+.mainmenu>ul>li>a:hover{
+  background-color: orange;
+}
+.drop{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  display: none;
+  z-index: 999;
+}
+.drop>li>a{
+  color:rgb(18, 21, 184);
+  text-decoration:none;
+  display:block;
+  padding: 15px;
+  background-color: rgb(167, 216, 31);
+ font-size:small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.drop>li>a:hover{
+  background-color: orange;
+}
+.mainmenu>ul>li:hover .drop{
+  display: block;
+}
+
+.banner{
+  max-width: 1300px;
+  height: auto;
+  overflow: hidden;
+
+}
+.banner img{
+  width: 100%;
+  height: auto;
+}
+.contentholder{
+  background-color: royalblue;
+}
+
+
+.content{
+  max-width: 900px;
+  height: auto;
+  padding:25px;
+  background-color: white;
+  float: left;
+}
+.content h1{
+
+  font-size: 2.5em;
+  font-family: sans-serif;
+}
+.content p{
+  font-size:large;
+  font-family: sans-serif;
+}
+.content img{
+  width: 400px;
+}
+.content1 h1{
+  font-size: xx-large;
+  font-size: 3em;
+}
+.content1 {
+  background-color: lightblue;
+}
+.blog1 img{
+ width: 500px;
+ height: 500px;
+
+ float: left;
+}
+.blog2 img
+{
+  width: 500px;
+  height: 500px;
+  float: right;
+}
+
+
+
+.sidebar{
+float: left;
+padding: 25px;
+}
+.sidebar h3{
+  font-family: sans-serif;
+  color: white;
+}
+.sidebar ul{
+  margin:0px;
+  padding: 0px;
+  list-style-type:none;
+}
+.sidebar ul >li >a{
+  text-decoration: none;
+  display: block;
+  margin-bottom: 15px;
+  color: white;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.sidebar iframe{
+  width: 300px;
+  height:850px;
+}
+.main-footer{
+  background-color: black;
+  color: white;
+max-width: 1250px;
+  height: auto;
+  padding: 25px;
+}
+.footer-box{
+  width: 400px;
+  height: auto;
+  float: left;
+  font-family: sans-serif;
+}
+.footer-box ul{
+  margin:0px;
+  padding: 0px;
+  list-style-type:none;
+}
+.footer-box ul>li
+{
+  font-size: xx-large;
+}
+.footer-box ul>li>a{
+  display: block;
+  font-size: medium;
+  margin-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+.add p{
+  font-size: large;
+  color: aquamarine;
+  font-weight: bold;
+}
+.add address a{
+  color: red;
+  font-size: medium;
+}
+.copy{
+  font-size: large;
+  font-family: sans-serif;
+  padding: 10px;
+  text-align: center;
+  background-color: crimson;
+  color: white;
+}
+.copy p{
+  margin: 0px;
+  color: black;
+  font-size: 20px;
+}
+.content img{
+max-width: 100%;
+  height: auto;
+}
+.product{
+  width: 265px;
+  height: 420px;
+  float: left;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 8px;
+}
+.product img{
+height: 250px;
+}
+.product-caption p {
+    font-weight: bold;
+}
+.product-caption a{
+  display: block;
+  background-color: teal;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  text-decoration:none;
+    font-size: larger;
+}
+.product-caption a:hover{
+  color: orange;
+}
+.product-caption ins {
+    color: green;
+}
+.product-caption del {
+    color: red;
+}
+.product2 img{
+width: 900px;
+}
+.no img{
+  width: 70%;
+  height: auto;
+}
+@media(max-width:500px){
+  .mainmenu>ul>li>a{
+    font-size: large;
+  }
+}
+@media(max-width:850px){
+.footer-box{
+  width: 200px;
+}
+}
+@media(max-width:1010px) {
+ 
+  .logo2{
+    display: none;
+  }
+}
+@media(max-width:1170px)
+{
+  .title{
+    margin-left: 0px;
+  }
+
+}
+@media(max-width:785px)
+{
+  .logo{
+    display: none;
+  }
+}
+@media(max-width:410px)
+{
+  .title{
+    font-size: 40px;
+
+  }
+}

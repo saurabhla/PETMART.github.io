@@ -1,0 +1,157 @@
+body{
+margin: 0 auto;
+background-color: lightgrey;
+}
+.container{
+  width: 1300px;
+  height: auto;
+  background-color:white;
+  margin: auto;
+}
+
+.logo{
+
+ float: left;
+}
+.clearfix{
+  clear: both;
+}
+
+.mainmenu{
+background-color: green;
+padding: 0px;
+}
+.mainmenu >ul{
+  margin:0px;
+  padding: 0px;
+  list-style-type:none;
+}
+.mainmenu >ul >li{
+  display: inline-block;
+}
+.mainmenu>ul>li>a{
+  color: white;
+  text-decoration:none;
+  display:block;
+  padding: 15px;
+ font-size:small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mainmenu>ul>li>a:hover{
+  background-color: orange;
+}
+.drop{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  display: none;
+  z-index: 999;
+}
+.drop>li>a{
+  color: white;
+  text-decoration:none;
+  display:block;
+  padding: 15px;
+  background-color: black;
+ font-size:small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.drop>li>a:hover{
+  background-color: orange;
+}
+.mainmenu>ul>li:hover .drop{
+  display: block;
+}
+
+.banner{
+  width: 1300px;
+  height: auto;
+  overflow: hidden;
+
+}
+.banner img{
+  width: 100%;
+  height: auto;
+}
+.contentholder{
+  background-color: royalblue;
+}
+.content{
+  width: 900px;
+  height: auto;
+  padding:25px;
+  background-color: white;
+  float: left;
+}
+.content h1{
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+.content p{
+  font-size: small;
+  font-family: sans-serif;
+}
+.sidebar{
+float: left;
+padding: 25px;
+}
+.sidebar h3{
+  font-family: sans-serif;
+  color: white;
+}
+.sidebar ul{
+  margin:0px;
+  padding: 0px;
+  list-style-type:none;
+}
+.sidebar ul >li >a{
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.main-footer{
+  background-color: black;
+  color: white;
+  width: 1250px;
+  height: auto;
+  padding: 25px;
+}
+.footer-box{
+  width: 400px;
+  height: auto;
+  float: left;
+  font-family: sans-serif;
+}
+.footer-box ul{
+  margin:0px;
+  padding: 0px;
+  list-style-type:none;
+}
+.footer-box ul>li>a{
+  display: block;
+  font-size: small;
+  margin-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+.add p{
+  font-size: large;
+}
+.add address a{
+  color: red;
+  font-size: large;
+}
+.copy{
+  font-size: large;
+  font-family: sans-serif;
+  padding: 25px;
+  text-align: center;
+  background-color: crimson;
+  color: white;
+}
+.copy p{
+  margin: 0px;
+}
