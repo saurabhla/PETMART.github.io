@@ -1,0 +1,126 @@
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+  <link rel="stylesheet" href="style1.css">
+  <script src="form.js"></script>
+  </head>
+  <body>
+<div class="container">
+  <header><!-- header !-->
+    <div class="logo">
+      <a href="index.html">
+      <img src="images/cats.jpg" alt=""></a>
+    </div>
+    <div class="logo2">
+      <a href="index.html">
+      <img src="images/dogs.jpg" alt=""></a>
+        </div>
+<div class="title">
+
+
+<h2 >Petsmart</h2>
+</div>
+    <div class="clearfix">
+      <div class="mainmenu">
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href=>Adopt</a></li>
+        <li><a href="blog.html">Blog(works)</a></li>
+        
+          
+        <li class="searchbar"><input class="searchbar" type="search" placeholder="Search Bar"></li>
+        <li><a href="">Services</a>
+          <li><a href=>Your PET</a>
+        <ul class="drop">
+          <li><a href="product.html">Dog(works)</a></li>
+          <li><a href="product2.html">Cat(works)</a></li>
+          <li><a href="#">Rabbit</a></li>
+          <li><a href="#">Bird</a></li>
+          <li><a href="#">Other...</a></li>
+        </ul>  
+      </li>
+      <li><a href="login.html">Login</a>
+        </ul>
+        </div>
+      <!-- FORM Validation -->
+      <div class="forms">
+      <div class="wrapper1">
+        <h2>LOGIN</h2>
+        <div id="error1"></div>
+        <form id="myform" onsubmit="return validation1()">
+          <div class="input_field">
+          <input id="email1" placeholder="EMAIL" type="text">
+        </div>
+       
+        
+        <div class="input_field">
+          
+          <input id="password1" placeholder="Password" type="password">
+        </div>
+        
+        <div class="btn">
+          <input type="submit" >
+        </div>
+      
+    </form>
+   </div>
+      <div class="wrapper">
+        <h2>REGISTER</h2>
+        <div id="error"></div>
+        <form id="myform" onsubmit="return validation()">
+          <div class="input_field">
+          <input id="name" placeholder="Name" type="text">
+        </div>
+        <div class="input_field">
+          
+          <input id="email" placeholder="Email" type="text">
+        </div>
+        <div class="input_field">
+          
+          <input id="number" placeholder="Phone" type="text">
+        </div>
+        
+        <div class="input_field">
+          
+          <input id="password" placeholder="Password" type="password">
+        </div>
+        <div class="input_field">
+          
+          <input id="cpassword" placeholder="Confirm Password" type="password">
+        </div>
+        <div class="btn">
+          <input type="submit">
+        </div>
+      
+    </form>
+   
+      
+     <!--  <table>
+        <tr>
+          <td>USERNAME:</td>
+          <td>
+            <input type="text" name="u_name" oninput="runme()">
+          </td>
+          <td id="message"></td>
+        </tr>
+        <tr>
+          <td>PASSWORD:</td>
+          <td>
+            <input type="password" name="u_pass" value="">
+          </td>
+        </tr>  
+        <tr>
+          <td>:</td>
+          <td>
+            <input type="submit" name="u_login" value="Login ">
+          </td>
+        </tr>
+      </table> -->
+    </div>
+    
+  </body>
+</html>
