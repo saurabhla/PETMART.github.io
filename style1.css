@@ -1,6 +1,6 @@
 body{
   max-width: 1400px;
-margin: 0 auto;
+margin:  auto;
 background-color: lightgrey;
 }
 .container{
@@ -224,7 +224,7 @@ max-width: 1250px;
 }
 .copy p{
   margin: 0px;
-  color: black;
+  color: white;
   font-size: 20px;
 }
 .content img{
@@ -270,6 +270,38 @@ width: 900px;
   width: 70%;
   height: auto;
 }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+  background:#e4405f;
+  color: white;
+}
+.fa-google{
+background: #dd4b39;
+color: white;
+}
+.logos{
+  text-align: center;
+}
+.logos a{
+  margin: 20px;
+}
 @media(max-width:500px){
   .mainmenu>ul>li>a{
     font-size: large;
@@ -281,7 +313,7 @@ width: 900px;
 }
 }
 @media(max-width:1010px) {
- 
+
   .logo2{
     display: none;
   }
@@ -305,4 +337,122 @@ width: 900px;
     font-size: 40px;
 
   }
+}
+/* .wrapper{
+  
+ margin-left: 350px;
+  max-width: 350px;
+  width: 100%;
+  background:black;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 3px;
+}
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+color:red;
+} */
+.forms{
+ max-width: 1800px;
+}
+.wrapper{
+  margin-left: 20%;
+  transform: translate(-50%);
+ 
+  width: 300px;
+  height: auto;
+  padding:25px;
+  background-color:rgb(150, 185, 23);
+  float: left;
+}
+.wrapper h2{
+  margin-left: 80px;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-bottom: auto;
+  text-transform: uppercase;
+  color:navy;
+}
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+.wrapper .input_field input[type="text"],
+.wrapper .input_field input[type="password"]{
+  width: 100%;
+  border:1px solid orange;
+  padding: 10px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0;
+  margin-top: 15p;
+  padding: 10px;
+  width: 100%;
+  background-color:gray;
+  color:navy;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.wrapper #error{
+  margin-bottom: 10px;
+  padding: 0px;
+  background: crimson;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+.wrapper1{
+  margin-left: 20%;
+  transform: translate(-50%);
+ 
+  width: 300px;
+  height: auto;
+  padding:25px;
+  background-color:rgb(150, 185, 23);
+  float: left;
+}
+.wrapper1 h2{
+  margin-left: 80px;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-bottom: auto;
+  text-transform: uppercase;
+  color:navy;
+}
+.wrapper1 .input_field{
+  margin-bottom: 10px;
+}
+.wrapper1 .input_field input[type="text"],
+.wrapper1 .input_field input[type="password"]{
+  width: 100%;
+  border:1px solid orange;
+  padding: 10px;
+}
+
+.wrapper1 .btn input[type="submit"]{
+  border: 0;
+  margin-top: 15p;
+  padding: 10px;
+  width: 100%;
+  background-color:gray;
+  color:navy;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.wrapper1 #error1{
+  margin-bottom: 10px;
+  padding: 0px;
+  background: crimson;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
 }
